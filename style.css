@@ -1,0 +1,91 @@
+
+html {
+	height: 100%;
+}
+body {
+	background-image: url(img/linen.jpg);
+	height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	text-shadow: 1px 1px 2px #00B5C0;
+	color: black;
+}
+a {
+	text-shadow: 1px 1px 2px #00B5C0;
+	color: black;
+	margin-left: 20px;
+}
+.header {
+	background: rgba(164,147,139, 0.8);
+	padding: 10px;
+	box-sizing: border-box;
+	position: fixed;
+	width: 100%;
+	border: 1px solid #00B5C0;
+}
+.main {
+	padding: 20px;
+	box-sizing: border-box;
+	flex-grow: 1;
+}
+.logo {
+	margin: 0px, 20px;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+.link {
+	color: black;
+	text-decoration: none;
+	margin-right: 0px, 20px;
+}
+.link:hover {
+	text-decoration: underline;
+}
+.link:active {
+	color: #00B5C0;
+}
+.content {
+	padding-top: 50px;
+	text-shadow: 1px 1px 2px #00B5C0;
+	color: black;
+	margin-left: 20px;
+}
+.picture {
+	width: 400px;
+	height: 300px;
+	border: 2px solid black;
+	margin-left: 20px;
+}
+aside {
+    background: rgba(15,223,187, 0.1);
+    padding: 10px;
+    width: 220px;
+    float: left;
+}
+.avatar {
+   	border-radius: 50%;
+   	margin-left: 40px;
+}
+.text_main {
+	padding: 40px;
+	margin-left: 220px;
+	text-indent: 40px;
+}
+.block {
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	margin: 0px 60px 60px 0;
+}
+.hobbies {
+	margin: 0px 0px 10px 40px;
+}
+.footer {
+	background: rgba(26,29,33, 0.6);
+	padding: 10px;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid #00B5C0;
+}
